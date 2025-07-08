@@ -1,0 +1,18 @@
+# Python clutter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environments
+orientation_processor_env/
+.env/
+
+# Data that can be regenerated
+stage2/stage1_json/
+stage2/plots/
+
+# OS noise
+.DS_Store
+Thumbs.db
