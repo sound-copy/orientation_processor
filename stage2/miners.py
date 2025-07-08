@@ -1,0 +1,1 @@
+print("miners placeholder")

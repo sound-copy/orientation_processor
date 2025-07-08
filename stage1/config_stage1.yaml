@@ -1,0 +1,12 @@
+run_mode: batch                 # batch | interactive
+input_dir: ./stage1_input
+output_dir: ../stage2/stage1_json
+wav_analysis: true
+
+cc_labels:
+  global: {1: ModWheel, 11: Expression}
+  per_channel: {}
+
+defaults:
+  tempo: 120
+  ticks_per_beat: 480

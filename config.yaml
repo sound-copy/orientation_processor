@@ -1,0 +1,10 @@
+# === Paths ===
+stage1_json_dir: ./stage2/stage1_json   # Stage 1’s output
+output_dir:      ./stage2/plots         # where Stage 2 will save its results
+
+# === Global options ===
+enable_3d_plots: true
+animate_plots:   false
+anim_fps:        30
+loop_repeats:    2
+motion_hint_mode: opacity

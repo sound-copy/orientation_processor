@@ -1,18 +1,16 @@
-# Python clutter
+# Byte-code caches
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
+*.py[cod]
 
-# Environments
+# Virtual-env folders
+*/.venv/
+*/venv/
 orientation_processor_env/
-.env/
 
-# Data that can be regenerated
+# OS clutter
+.DS_Store
+
+# Large data you don’t need in history
+stage1/stage1_input/
 stage2/stage1_json/
 stage2/plots/
-
-# OS noise
-.DS_Store
-Thumbs.db
