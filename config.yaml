@@ -1,10 +1,31 @@
-# === Paths ===
-stage1_json_dir: ./stage2/stage1_json   # Stage 1’s output
-output_dir:      ./stage2/plots         # where Stage 2 will save its results
 
-# === Global options ===
-enable_3d_plots: true
-animate_plots:   false
-anim_fps:        30
-loop_repeats:    2
-motion_hint_mode: opacity
+stage1_json_dir: ./stage2/stage1_json   # Stage 1 output
+output_dir:      ./stage2/plots         # Stage 2 will save plots here
+
+global:
+  enable_3d_plots: true
+  preview_level: basic          # basic | detailed | full
+  animate_plots: false
+  anim_fps: 30
+  loop_repeats: 2
+  motion_hint_mode: opacity     # opacity | first_last_frames
+
+  parametric_curves:
+    epicycloid:  false
+    hypocycloid: false
+    quaternion:  false
+
+plots:
+  boxplot:
+    xyz_mode: true
+  polarplot:
+    resolution_deg: 5
+  quiver:
+    vector_scale: auto
+
+movement_mapping:   {}
+interactions:       {}
+midi_feedback:
+  export_motif_ids: []
+
+
