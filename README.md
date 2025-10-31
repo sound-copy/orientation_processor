@@ -1,1 +1,1 @@
-
+- ✅ Codex connected to this repo (smoke)
